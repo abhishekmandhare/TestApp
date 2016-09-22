@@ -1,0 +1,114 @@
+﻿Build started 9/22/2016 6:20:33 PM.
+     1>Project "C:\Users\Abhishek\Downloads\cppunit_1.13.2.orig\cppunit-1.13.2\src\cppunit\cppunit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /Z7 /nologo /W3 /WX- /O2 /Oy- /D NDEBUG /D _LIB /D WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BriefTestProgressListener.cpp TestResultCollector.cpp TestSuccessListener.cpp TextTestProgressListener.cpp TextTestResult.cpp TextTestRunner.cpp CompilerOutputter.cpp TextOutputter.cpp XmlOutputter.cpp XmlOutputterHook.cpp AdditionalMessage.cpp Asserter.cpp Exception.cpp Message.cpp SourceLine.cpp SynchronizedObject.cpp Test.cpp TestAssert.cpp TestCase.cpp TestComposite.cpp TestFailure.cpp TestLeaf.cpp TestPath.cpp TestResult.cpp TestRunner.cpp TestSuite.cpp TestFactoryRegistry.cpp TestNamer.cpp TestSuiteBuilderContext.cpp TypeInfoHelper.cpp RepeatedTest.cpp TestCaseDecorator.cpp TestDecorator.cpp TestSetUp.cpp BeOsDynamicLibraryManager.cpp DynamicLibraryManager.cpp DynamicLibraryManagerException.cpp PlugInManager.cpp PlugInParameters.cpp ShlDynamicLibraryManager.cpp TestPlugInDefaultImpl.cpp UnixDynamicLibraryManager.cpp Win32DynamicLibraryManager.cpp StringTools.cpp XmlDocument.cpp XmlElement.cpp DefaultProtector.cpp Protector.cpp ProtectorChain.cpp
+         BriefTestProgressListener.cpp
+         TestResultCollector.cpp
+         TestSuccessListener.cpp
+         TextTestProgressListener.cpp
+         TextTestResult.cpp
+         TextTestRunner.cpp
+         CompilerOutputter.cpp
+         TextOutputter.cpp
+         XmlOutputter.cpp
+         XmlOutputterHook.cpp
+         AdditionalMessage.cpp
+         Asserter.cpp
+         Exception.cpp
+         Message.cpp
+         SourceLine.cpp
+         SynchronizedObject.cpp
+         Test.cpp
+         TestAssert.cpp
+         TestCase.cpp
+         TestComposite.cpp
+         Generating Code...
+         Compiling...
+         TestFailure.cpp
+         TestLeaf.cpp
+         TestPath.cpp
+         TestResult.cpp
+         TestRunner.cpp
+         TestSuite.cpp
+         TestFactoryRegistry.cpp
+         TestNamer.cpp
+         TestSuiteBuilderContext.cpp
+         TypeInfoHelper.cpp
+         RepeatedTest.cpp
+         TestCaseDecorator.cpp
+         TestDecorator.cpp
+         TestSetUp.cpp
+         BeOsDynamicLibraryManager.cpp
+         DynamicLibraryManager.cpp
+         DynamicLibraryManagerException.cpp
+         PlugInManager.cpp
+         PlugInParameters.cpp
+         ShlDynamicLibraryManager.cpp
+         Generating Code...
+         Compiling...
+         TestPlugInDefaultImpl.cpp
+         UnixDynamicLibraryManager.cpp
+         Win32DynamicLibraryManager.cpp
+         StringTools.cpp
+         XmlDocument.cpp
+         XmlElement.cpp
+         DefaultProtector.cpp
+         Protector.cpp
+         ProtectorChain.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Release\cppunit.lib" /NOLOGO .\Release\BriefTestProgressListener.obj
+         .\Release\TestResultCollector.obj
+         .\Release\TestSuccessListener.obj
+         .\Release\TextTestProgressListener.obj
+         .\Release\TextTestResult.obj
+         .\Release\TextTestRunner.obj
+         .\Release\CompilerOutputter.obj
+         .\Release\TextOutputter.obj
+         .\Release\XmlOutputter.obj
+         .\Release\XmlOutputterHook.obj
+         .\Release\AdditionalMessage.obj
+         .\Release\Asserter.obj
+         .\Release\Exception.obj
+         .\Release\Message.obj
+         .\Release\SourceLine.obj
+         .\Release\SynchronizedObject.obj
+         .\Release\Test.obj
+         .\Release\TestAssert.obj
+         .\Release\TestCase.obj
+         .\Release\TestComposite.obj
+         .\Release\TestFailure.obj
+         .\Release\TestLeaf.obj
+         .\Release\TestPath.obj
+         .\Release\TestResult.obj
+         .\Release\TestRunner.obj
+         .\Release\TestSuite.obj
+         .\Release\TestFactoryRegistry.obj
+         .\Release\TestNamer.obj
+         .\Release\TestSuiteBuilderContext.obj
+         .\Release\TypeInfoHelper.obj
+         .\Release\RepeatedTest.obj
+         .\Release\TestCaseDecorator.obj
+         .\Release\TestDecorator.obj
+         .\Release\TestSetUp.obj
+         .\Release\BeOsDynamicLibraryManager.obj
+         .\Release\DynamicLibraryManager.obj
+         .\Release\DynamicLibraryManagerException.obj
+         .\Release\PlugInManager.obj
+         .\Release\PlugInParameters.obj
+         .\Release\ShlDynamicLibraryManager.obj
+         .\Release\TestPlugInDefaultImpl.obj
+         .\Release\UnixDynamicLibraryManager.obj
+         .\Release\Win32DynamicLibraryManager.obj
+         .\Release\StringTools.obj
+         .\Release\XmlDocument.obj
+         .\Release\XmlElement.obj
+         .\Release\DefaultProtector.obj
+         .\Release\Protector.obj
+         .\Release\ProtectorChain.obj
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(1000,5): error MSB6003: The specified task executable "Lib.exe" could not be run. The process cannot access the file 'C:\Users\Abhishek\Downloads\cppunit_1.13.2.orig\cppunit-1.13.2\src\cppunit\Release\cppunit.tlog\Lib-link.read.1.tlog' because it is being used by another process.
+     1>Done Building Project "C:\Users\Abhishek\Downloads\cppunit_1.13.2.orig\cppunit-1.13.2\src\cppunit\cppunit.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.20
