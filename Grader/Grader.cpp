@@ -37,6 +37,7 @@ bool Grader::ReadFile()
 		StudentData data;
 		while (getline(infile, line))
 		{
+			if (line == "" || line == "\n") break;
 			vector<string> result;
 			parseCommaSeperatedStr(line, result);
 
