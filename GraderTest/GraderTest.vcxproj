@@ -60,6 +60,11 @@
       <AdditionalDependencies>cppunitd.lib;Grader.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>lib\;..\Debug\</AdditionalLibraryDirectories>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy Names.txt "$(TargetDir)" /Y
+xcopy Names1.txt "$(TargetDir)" /Y
+xcopy Names1-graded.txt "$(TargetDir)" /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

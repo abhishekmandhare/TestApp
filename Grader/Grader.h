@@ -20,9 +20,9 @@ public:
 	{
 		if (d1.score == d2.score)
 		{
-			if (d1.last_name == d1.last_name)
+			if (d1.last_name == d2.last_name)
 			{
-				if (d1.first_name > d2.first_name)
+				if (d1.first_name < d2.first_name)
 				{
 					return true;
 				}
@@ -31,7 +31,7 @@ public:
 					return false;
 				}
 			}
-			else if (d1.last_name > d2.last_name)
+			else if (d1.last_name < d2.last_name)
 			{
 
 				return true;
